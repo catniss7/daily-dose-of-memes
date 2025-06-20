@@ -68,7 +68,6 @@ def main():
     button = tk.Button(root, image=up_button_photo, borderwidth=0, highlightthickness=0)  
     button.place(x=350, y=550)  
 
-    # Bind press and release events
     button.bind("<ButtonPress-1>", lambda event: on_press())
     button.bind("<ButtonRelease-1>", lambda event: on_release())
 
